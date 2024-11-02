@@ -10,7 +10,7 @@ function SearchBox({ value, onFilter }) {
         value={value}
         onChange={(e) => onFilter(e.target.value)}
         className={css.searchInput}
-      ></input>
+      />
     </div>
   );
 }
